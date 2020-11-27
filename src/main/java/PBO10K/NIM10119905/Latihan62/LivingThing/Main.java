@@ -21,7 +21,7 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Human objHuman = new Human();
+        LivingThing objHuman = new Human();
         objHuman.walk("Rizki Adam Kurniawan");
         objHuman.breath("Rizki Adam Kurniawan");
         objHuman.eat("Rizki Adam Kurniawan");

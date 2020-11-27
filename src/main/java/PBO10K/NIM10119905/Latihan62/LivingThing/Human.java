@@ -26,14 +26,5 @@ public class Human extends LivingThing{
        System.out.println(nama + " sedang berjalan");
     }
 
-    @Override
-    public void breath(String nama) {
-        System.out.println(nama + " Bernafas");
-    }
-
-    @Override
-    public void eat(String nama) {
-        System.out.println(nama + " Makan");
-    }
     
 }

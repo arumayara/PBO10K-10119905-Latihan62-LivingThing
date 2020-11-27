@@ -11,6 +11,14 @@ package PBO10K.NIM10119905.Latihan62.LivingThing;
  */
 public abstract class LivingThing {
    public abstract void walk(String nama);
-   public abstract void breath(String nama);
-   public abstract void eat(String nama);
+   
+    
+    public void breath(String nama) {
+        System.out.println(nama + " Bernafas");
+    }
+
+  
+    public void eat(String nama) {
+        System.out.println(nama + " Makan");
+    }
 }
